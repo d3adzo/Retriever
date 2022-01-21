@@ -79,7 +79,6 @@ int writetofile (char *password){
     }
 
     /* Encrypt Message */
-    char message[256];
     char* key  = "KEY_HERE";
     int key_length = strlen(key);
     int mes_length = strlen(buffer);
